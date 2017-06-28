@@ -1,0 +1,11 @@
+programming for the web.
+IOT...
+input ---- process ---- output..
+computers are more efficient.
+Programming an Colloboration tool to be hosted locally.
+
+header, footer, nav, video, article, section Makes HTML easier to read for search engines.
+
+  main tag in HTML 5 helps search engines and developers find main content on your site.
+  classes selects diff part/elements on a page
+pixel means picture element and it is the smallest unit of display.

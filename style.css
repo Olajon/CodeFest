@@ -1,0 +1,100 @@
+.head {
+  color: white; font-family: 'Helvetica Neue', sans-serif; font-size: 100px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center;
+}
+
+/*a { color: #ff9900; background: white; text-decoration: none;  font-size:20px; }*/
+
+
+/*a:hover { color: black; } */
+
+.text{
+
+  color: #7c795d; font-family: 'Source Sans Pro', sans-serif; font-size: 28px; font-weight: 400;
+  line-height: 32px; margin: 0 0 24px; text-align: center;
+}
+
+
+p { color: #222; font-family: 'Open Sans', sans-serif; font-size: 15px; font-weight: 400;
+line-height: 24px; margin: 0 0 14px;}
+
+.innertext {color: white; font-family: 'Verdana', sans-serif; font-size: 16px;
+line-height: 26px; text-indent:30px; margin: 0; text-shadow: 1px 1px orange;
+}
+
+#links{
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.snip1526 {
+  font-family: 'Work Sans', Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.snip1526 *,
+.snip1526 *:after {
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+}
+
+.snip1526 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0.5em 0.6em;
+  -webkit-perspective: 50em;
+  perspective: 50em;
+}
+
+.snip1526 a {
+  backface-visibility: hidden;
+  color: #ffffff;
+  display: block;
+  line-height: 2.2em;
+  padding: 0 1.4em;
+  position: relative;
+  text-decoration: none;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  background-color: #667273;
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+}
+
+.snip1526 a:after {
+  background-color: #5c122e;
+  color: transparent;
+  content: attr(data-hover);
+  top: 0%;
+  line-height: 2.2em;
+  position: absolute;
+  left: 100%;
+  width: 100%;
+  -webkit-transform: translateX(0%) rotateY(90deg);
+  transform: translateX(0%) rotateY(90deg);
+  -webkit-transform-origin: 0% 50%;
+  -ms-transform-origin: 0% 50%;
+  transform-origin: 0% 50%;
+}
+
+.snip1526 li:hover a,
+.snip1526 li.current a {
+  -webkit-transform: translate(-50%) rotateY(-90deg);
+  transform: translate(-50%) rotateY(-90deg);
+  background-color: #1e2222;
+  color: transparent;
+}
+
+.snip1526 li:hover a:after,
+.snip1526 li.current a:after {
+  background-color: orange;
+  color: #ffffff;
+  cursor: pointer;
+}
