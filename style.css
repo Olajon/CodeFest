@@ -1,5 +1,5 @@
 .head {
-  color: white; font-family: 'Helvetica Neue', sans-serif; font-size: 100px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center;
+  color: white; font-family: 'Helvetica Neue', sans-serif; font-size: 90px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center;
 }
 
 /*a { color: #ff9900; background: white; text-decoration: none;  font-size:20px; }*/
@@ -17,9 +17,11 @@
 p { color: #222; font-family: 'Open Sans', sans-serif; font-size: 15px; font-weight: 400;
 line-height: 24px; margin: 0 0 14px;}
 
-.innertext {color: white; font-family: 'Verdana', sans-serif; font-size: 16px;
-line-height: 26px; text-indent:30px; margin: 0; text-shadow: 1px 1px orange;
+.innertext {color: white; font-family: 'Helvetica Neue', sans-serif; font-size: 25px;
+line-height: 26px; text-indent:30px; margin: 0;
+text-align:center;
 }
+
 
 #links{
     color: white;
@@ -98,3 +100,9 @@ line-height: 26px; text-indent:30px; margin: 0; text-shadow: 1px 1px orange;
   color: #ffffff;
   cursor: pointer;
 }
+
+#bounce:hover {-webkit-animation-name:bounce;-webkit-animation-duration:1s;
+  -webkit-animation-iteration-count:2;-webkit-animation-direction:alternate}
+	@-webkit-keyframes bounce{from{margin-left:0px;}
+		to{margin-left:250px;}
+		}
